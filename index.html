@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webApp3D(1)</title>
+    <!--reference to the font and css used-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">                                                             
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <!--Using the script to view models from babylon.js-->
+    <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"> </script>
+</head>
+<body>
+    <div id="mainheading">
+        <h1 style="color: rgb(101, 2, 101);">
+        360 Degree View
+        </h1>
+    </div>
+    <div id="subheading">
+        <h2 style="color:purple">
+            Experience 3D Web App
+        </h2>
+        <p style="color: blueviolet;">
+            Experience the 3D Web App by rorating the model below. 
+        </p>
+        
+        <!--Using the babylon.js Model in our Web App-->
+        <babylon model="./box.babylon" ></babylon>
+    </div>
+        
+</body>
+</html>

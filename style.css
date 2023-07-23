@@ -1,0 +1,17 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+#mainheading{
+    background-color: rgb(197, 174, 219);
+    text-align: center;
+}
+
+#subheading{
+    height: 600px;
+}      
